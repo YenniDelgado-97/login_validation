@@ -12,19 +12,82 @@
 <body>
     <main>
         <form action="" class="formulario"  id="formulario"> </form>
+            <!--   Grupo del area usuario -->
+
             <div class="formulario__grupo" id="grupo__usuario">
                 <label for="usuario" class="formulario__label">usuario</label>
                 <div class="formulario__grupo-input">
-                    <input type="text" class="formulaio__input" name="usuario" id="usuario" placeholder="YenniDelgado97" >
+                    <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="YenniDelgado97" >
                     <i class="formulario__validación-estado fa-regular fa-circle-xmark"></i>
                 </div>
                 <p class="formulario__input-error">El usuario tiene que ser de 2 a 6 digitos y debe contener un @ y un punto.</p>
 
+            </div>
+
+            <!--   Grupo del area nombre -->
+
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Nombre</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Yenni Vanessa Delgado" >
+                    <i class="formulario__validación-estado fa-regular fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">El usuario debe contener un @ y un punto.</p>
 
             </div>
-    </main>
 
 
+            <!--   Grupo del area contrasena -->
+
+            <div class="formulario__grupo" id="grupo__password">
+
+                <label for="password" class="formulario__label">Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input" name="password" id="password"  >
+                    <i class="formulario__validación-estado fa-regular fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">La contraseña tiene que ser de 2 a 6 digitos</p>
+            
+            </div>
+
+            <!--   Grupo del area contrasena2 -->
+
+            <div class="formulario__grupo" id="grupo__password2">
+
+                <label for="password2" class="formulario__label">Repetir Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input" name="password2" id="password2"  >
+                    <i class="formulario__validación-estado fa-regular fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">Ambas contraseñas deben ser iguales</p>
+            
+            </div>
+
+            <!--   Grupo del area correo-->
+
+            <div class="formulario__grupo" id="grupo__correo">
+                <label for="correo" class="formulario__label">Correo Electronico</label>
+                <div class="formulario__grupo-input">
+                    <input type="email" class="formulario__input" name="correo" id="correo" placeholder="Correo@uncorreo.com" >
+                    <i class="formulario__validación-estado fa-regular fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">El correo solo debe contener letras, numeros, puntos y guión bajo</p>
+
+            </div>
+            
+            <!--   Grupo del area telefono-->
+
+            <div class="formulario__grupo" id="grupo__telefono">
+                <label for="telefono" class="formulario__label">Telefono</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="12354112" >
+                    <i class="formulario__validación-estado fa-regular fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">El telefono solo debe contener numero y le numero maximo de numeros es 8</p>
+
+            </div>
+
+            
 
 
 
